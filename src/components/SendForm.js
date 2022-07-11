@@ -20,10 +20,10 @@ const SendForm = () => {
   return (
 
     <form id='allform' ref={form} onSubmit={sendEmail} class="row justify-content-center">
-        
+      <div class="col-8">  
         {/* U S E R  N A M E */}
         <div class="row justify-content-center">
-          <div class="col-10 mb-3">
+          <div class="col mb-3">
             <label for="exampleFormControlInput1" class="form-label">Name</label>
             <input type="text" name="user_name" class="form-control" id="exampleFormControlInput1" placeholder="Your name" required={true}/>
           </div>
@@ -31,7 +31,7 @@ const SendForm = () => {
 
         {/* F R O M  E M A I L */}
         <div class="row justify-content-center">
-          <div class="col-10 mb-3">
+          <div class="col mb-3">
             <label for="exampleFormControlInput1" class="form-label">Your Email</label>
             <input type="email" name="user_email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required={true}/>
           </div>
@@ -39,7 +39,7 @@ const SendForm = () => {
 
         {/* T O  E M A I L */}
         <div class="row justify-content-center">
-          <div class="col-10 mb-3">
+          <div class="col mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email destiny</label>
             <input type="email" name="to_email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required={true}/>
           </div>
@@ -47,7 +47,7 @@ const SendForm = () => {
 
         {/* T E X T  A R E A */}
         <div class="row justify-content-center">
-          <div class="col-10 mb-3">
+          <div class="col mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
             <textarea 
               class="form-control" 
@@ -64,7 +64,7 @@ const SendForm = () => {
         {/* B U T T O N */}
         <div class="row justify-content-center">
           <button 
-            class="col-3 mt-1 btn btn-primary"
+            class="col mt-1 btn btn-primary"
             type="submit"
             value="Send"
             id="sendFormButton"
@@ -72,8 +72,8 @@ const SendForm = () => {
             Send
           </button>
         </div>
-          
-      </form>
+      </div>    
+    </form>
 
   )
 }
