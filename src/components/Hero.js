@@ -11,8 +11,8 @@ const Hero = () => {
 
           {/* L O G O T Y P E */}
           <div class="row justify-content-center align-items-center">
-            <div class="col" style={{ textAlign: 'center', paddingTop: '8vh', paddingBottom: '5vh' }}>
-              <img src={logotype} alt="" style={{ width: '50vmax' }}/>
+            <div class="col" style={{ textAlign: 'center', paddingTop: '8vmin', paddingBottom: '5vh' }}>
+              <img src={logotype} alt="" style={{ width: '48vmax' }}/>
             </div>
           </div>
           
@@ -22,6 +22,12 @@ const Hero = () => {
               <img src={group1} alt=""/>
               <img src={group2} alt=""/>
               <img src={group3} alt=""/>
+              <lord-icon id="scroll-down"
+                src="https://cdn.lordicon.com/xhdhjyqy.json"
+                trigger="loop"
+                colors="primary:#474747"
+                state="hover-2">
+              </lord-icon>
             </div>
           </div>
 

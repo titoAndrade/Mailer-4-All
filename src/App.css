@@ -18,6 +18,7 @@ body {
   position: fixed;
   background: #fff;
   border-bottom: solid 1px #dfdfdf;
+  z-index: 10;
 }
 
 #container {
@@ -92,10 +93,266 @@ body {
   height: 18vmax;
 }
 
+#scroll-down {
+  position: absolute;
+  margin-top: 14vmax;
+  margin-left: 22vmax;
+  width: 3vmax;
+  height: 3vmax;
+}
+
 @media screen and (max-width: 700px) {
 
   #hero-container {
     padding-top: 20vh;
   }
 
+  #scroll-down {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-460%, 500%);
+    /* margin-top: 32vh;
+    margin-left: -35vw; */
+    width: 5vmax;
+    height: 5vmax;
+  }
+
+}
+
+/* G O  T O */
+
+#btn-container {
+  padding-block: 1vmax;
+}
+
+#col-btn-1 {
+  text-align: end;
+  padding-right: 6vmax;
+}
+
+#col-btn-2 {
+  padding-left: 6vmax;
+}
+
+.goto-btn {
+  background: #fff;
+  border: none;
+  border-radius: 2em;
+  padding-block: 1.5vmax;
+  padding-inline: 4vmax;
+  font-size: 1em;
+  font-family: fahkwang;
+  font-weight: 300;
+  color: #000;
+  width: 20vmax;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.goto-btn:hover {
+  background: #E3E0F3;
+  color: #474747;
+}
+
+@media screen and (max-width: 700px) {
+
+  #col-btn-1,
+  #col-btn-2 {
+    margin: 1vmax;
+    padding: 0;
+    text-align: center;
+  }
+
+  .goto-btn {
+    font-size: 1em;
+    padding-block: 1.8vmax;
+    width: 30vmax;
+  }
+
+}
+
+/* H O W  D O E S I T  W O R K */
+
+#how-works-container {
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  padding-block: 5em;
+}
+
+#section-1 {
+  margin-top: 5vmax;
+}
+
+#section-1 p {
+  font-size: 2vmax;
+  font-family: italiana;
+  font-weight: 300;
+}
+
+#illustration-col {
+  text-align: center;
+  /* border: solid 1px #000; */
+}
+
+
+#main-character-1 {
+  width: 8vmax;
+}
+
+.buble-container {
+  /* border: solid 1px #000; */
+  position: relative;
+  display: inline-block;
+}
+
+#bubble-1 {
+  /* border: solid 1px blue; */
+  transform: scaleX(-1);
+  width: 25vmax;
+  margin-top: -120%;
+}
+
+.centered-text {
+  /* border: solid 1px #000; */
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6vmax;
+  font-family: italiana;
+  font-weight: 600;
+  color: #000;
+  margin-top: -62%;
+}
+
+@media screen and (max-width: 700px) {
+  #illustration-col {
+    margin-top: 10vmax;
+    margin-left: 15vmax;
+  }
+}
+
+.buble-container-2 {
+  /* border: solid 1px #000; */
+  position: relative;
+  display: inline-block;
+}
+
+#bubble-2 {
+  /* border: solid 1px blue; */
+  transform: scaleX(-1) scaleY(-1) rotate(-25deg);
+  width: 25vmax;
+  margin-top: -125%;
+}
+
+.centered-text-2 {
+  /* border: solid 1px #000; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -10%);
+  font-size: 1.6vmax;
+  font-family: italiana;
+  font-weight: 600;
+  color: #000;
+  margin-top: -62%;
+}
+
+#explination-col h1 {
+  font-size: 4.5vmax;
+  font-family: italiana;
+  font-weight: 600;
+  margin-bottom: 2vmax;
+  margin-top: -6vmax;
+}
+
+#explination-col p {
+  color: #474747;
+  font-weight: 600;
+}
+
+#main-character-2 {
+  width: 16vmax;
+}
+
+.buble-container-3 {
+  /* border: solid 1px #000; */
+  position: relative;
+  display: inline-block;
+}
+
+#bubble-3 {
+  /* border: solid 1px blue; */
+  width: 25vmax;
+  margin-top: -300%;
+  margin-left: 20%;
+}
+
+.centered-text-3 {
+  /* border: solid 1px #000; */
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-10%, -490%);
+  font-size: 1.6vmax;
+  font-family: italiana;
+  font-weight: 600;
+  color: #000;
+  margin-top: -62%;
+}
+
+#illustration-col-2 {
+  text-align: center;
+  /* border: solid 1px #000; */
+}
+
+@media screen and (max-width: 700px) {
+  #illustration-col-2 {
+    margin-top: 5vmax;
+    margin-left: 18vmax;
+  }
+
+  #bubble-3 {
+    margin-top: -170%;
+    margin-left: -120%;
+  }
+
+  .centered-text-3 {
+    transform: translate(-170%, -120%);
+  }
+}
+
+#illustration-col-3 {
+  text-align: center;
+}
+
+#main-character-3 {
+  width: 9vmax;
+}
+
+.buble-container-4 {
+  /* border: solid 1px #000; */
+  position: relative;
+  display: inline-block;
+}
+
+#bubble-4 {
+  /* border: solid 1px blue; */
+  transform: scaleX(-1);
+  width: 25vmax;
+  margin-top: -150%;
+  margin-left:-30%;
+}
+
+.centered-text-4 {
+  /* border: solid 1px #000; */
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-75%, -130%);
+  font-size: 2.5vmax;
+  font-family: fahkwang ;
+  font-weight: 900;
+  color: #000;
+  margin-top: -60%;
 }
