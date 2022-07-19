@@ -7,11 +7,11 @@ function NavbarApp() {
   return (
     <Navbar class='nav sticky-top' id="navbar" expand="lg">
       <Container id='container'>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#hero-container">
           <lord-icon
             src="https://cdn.lordicon.com/igpbsrza.json"
             trigger="hover"
-            colors="primary:#474747"
+            colors="primary:#000"
             style= {{width:'1.7em', height: '1.7em'}}>
           </lord-icon>
         </Navbar.Brand>
@@ -19,8 +19,8 @@ function NavbarApp() {
         <Navbar.Collapse id="basic-navbar-nav">
           <div class="container" id='links-container'>
             <Nav class="row">
-              <div class="col" id='home-link'><Nav.Link href="#home" id="nav-link"><p>Home</p></Nav.Link></div>
-              <div class="col"><Nav.Link href="#link" id="nav-link"><p>How it works</p></Nav.Link></div>
+              <div class="col" id='home-link'><Nav.Link href="#hero-container" id="nav-link"><p>Home</p></Nav.Link></div>
+              <div class="col"><Nav.Link href="#how-works-container" id="nav-link"><p>How it works</p></Nav.Link></div>
               <div class="col"><Nav.Link href="#link" id="nav-link"><p>Use web App</p></Nav.Link></div>
               <div class="col">
                 <NavDropdown title="+" id="basic-nav-dropdown">

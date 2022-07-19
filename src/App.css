@@ -29,7 +29,7 @@ body {
 #nav-link, #basic-nav-dropdown {
   font-family: fahkwang;
   font-weight: 100;
-  color: #474747;
+  color: #000;
   text-align: end;
   margin-bottom: -1em;
 }
@@ -118,6 +118,11 @@ body {
     height: 5vmax;
   }
 
+  #scroll-down-2 {
+    width: 5vmax !important;
+    height: 5vmax !important;
+  }
+
 }
 
 /* G O  T O */
@@ -143,7 +148,7 @@ body {
   padding-inline: 4vmax;
   font-size: 1em;
   font-family: fahkwang;
-  font-weight: 300;
+  font-weight: 500;
   color: #000;
   width: 20vmax;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
@@ -363,11 +368,18 @@ body {
   margin-top: -60%;
 }
 
-#explination-col-3 p {
+#explination-col-3 p , #explination-col-2 p {
   font-size: 2vmax;
   font-family: italiana;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: 2vmax;
+}
+
+#andthatsit h2 {
+  margin-top: -3vh;
+  font-size: 4vmax;
+  font-family: italiana;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 700px) {
@@ -388,5 +400,88 @@ body {
     top: -50%;
     left: 50%;
     transform: translate(-75%, -90%);
+  }
+}
+/* 
+#yeah-general-container {
+} */
+
+#yeah-title {
+  margin-top: 4vmax;
+  margin-bottom: -3vmax;
+  font-size: 4vmax;
+  font-family: italiana;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+#yeah-container {
+  margin-top: 5vh;
+  position: relative;
+  display: inline-block;
+}
+
+#back-animiation {
+  width: 100vw;
+  height: 70vmin;
+}
+
+#yeah-character {
+  width: 16vmax;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+#front-animiation-1 {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#front-animiation-2 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* M A I L  F O R M */
+
+#allform {
+  margin-top: 2vmax;
+  padding-bottom: 10vmax;
+  background: #fff;
+  padding-inline: 20vw;
+  font-family: italiana;
+  font-size: 1.3vmax;
+  font-weight: 600;
+  color: #000;
+}
+
+#app-title img {
+  text-align: center;
+  margin-block: 5vmax ;
+}
+
+#allform button {
+  width: 49vmax;
+}
+
+@media screen and (max-width: 700px) {
+  #allform {
+    padding-inline: 6vw;
+  font-size: 2vmax;
+
+  }
+  #allform button {
+    width: 36vmax;
   }
 }

@@ -25,7 +25,7 @@ const Hero = () => {
               <lord-icon id="scroll-down"
                 src="https://cdn.lordicon.com/xhdhjyqy.json"
                 trigger="loop"
-                colors="primary:#474747"
+                colors="primary:#000"
                 state="hover-2">
               </lord-icon>
             </div>

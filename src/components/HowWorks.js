@@ -62,7 +62,7 @@ const HowWorks = () => {
                 style={{width:'8vmax', height:'8vmax'}}>
               </lord-icon>
             </div>
-            <div class="col-8" style={{ textAlign:'left', paddingTop: '1vmax', paddingLeft: '2vmax' }}>
+            <div class="col-8" style={{ textAlign:'left', paddingTop: '2.5vmax', paddingLeft: '2vmax' }}>
               <p>look for a mobile or desktop device</p>
             </div>
           </div>
