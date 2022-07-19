@@ -21,7 +21,7 @@ function NavbarApp() {
             <Nav class="row">
               <div class="col" id='home-link'><Nav.Link href="#hero-container" id="nav-link"><p>Home</p></Nav.Link></div>
               <div class="col"><Nav.Link href="#how-works-container" id="nav-link"><p>How it works</p></Nav.Link></div>
-              <div class="col"><Nav.Link href="#link" id="nav-link"><p>Use web App</p></Nav.Link></div>
+              <div class="col"><Nav.Link href="#allform" id="nav-link"><p>Use web App</p></Nav.Link></div>
               <div class="col">
                 <NavDropdown title="+" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">about</NavDropdown.Item>

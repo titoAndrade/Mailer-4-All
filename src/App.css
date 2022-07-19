@@ -459,6 +459,7 @@ body {
   margin-top: 2vmax;
   padding-bottom: 10vmax;
   background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   padding-inline: 20vw;
   font-family: italiana;
   font-size: 1.3vmax;
@@ -466,19 +467,25 @@ body {
   color: #000;
 }
 
-#app-title img {
+#app-title {
   text-align: center;
-  margin-block: 5vmax ;
+}
+
+#app-title img {
+  margin-block: 4vmax ;
+  width: 30vmax;
 }
 
 #allform button {
   width: 49vmax;
+  font-weight: 600;
 }
+
 
 @media screen and (max-width: 700px) {
   #allform {
     padding-inline: 6vw;
-  font-size: 2vmax;
+    font-size: 2vmax;
 
   }
   #allform button {

@@ -1,6 +1,9 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
+import logo from './ilustrations/hero-logo.png'
+
+
 const SendForm = () => {
   
   const form = useRef()
@@ -24,7 +27,7 @@ const SendForm = () => {
       {/* T I T L E */}
       <div class="row justify-content-center" id='app-title'>
         <div class="col">
-          <img src="" alt="" />
+          <img src={logo} alt="" />
         </div>
       </div>
 

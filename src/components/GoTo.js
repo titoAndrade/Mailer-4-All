@@ -9,7 +9,7 @@ const GoTo = () => {
           </a>        
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10" id="col-btn-2">
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="#allform">
             <button class="goto-btn">go to the app</button>
           </a>        
         </div>
