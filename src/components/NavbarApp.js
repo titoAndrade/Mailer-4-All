@@ -25,10 +25,10 @@ function NavbarApp() {
               <div class="col">
                 <NavDropdown title="+" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">about</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">repository</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">ilustrations</NavDropdown.Item>
+                  <NavDropdown.Item href="https://github.com/titoAndrade/Mailer-4-All" target="_blank" rel="noreferrer">repository</NavDropdown.Item>
+                  <NavDropdown.Item href="https://icons8.com/illustrations/author/zD2oqC8lLBBA" target="_blank" rel="noreferrer">ilustrations</NavDropdown.Item>
                   <NavDropdown.Divider style={{ color: '#efefef' }}/>
-                  <NavDropdown.Item href="#action/3.4">want to chat?</NavDropdown.Item>
+                  <NavDropdown.Item href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank">want to chat?</NavDropdown.Item>
                 </NavDropdown>
               </div>
             </Nav>
