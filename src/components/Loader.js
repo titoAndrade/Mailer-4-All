@@ -5,10 +5,10 @@ const Loader = () => {
         <div class="col-12"
              style={{ marginTop: '45vh', marginLeft: '85vw'}}>
           <lottie-player 
-            src="https://assets6.lottiefiles.com/packages/lf20_bxw59kpa.json"
+            src="https://assets3.lottiefiles.com/packages/lf20_rmmuyh5f.json"
             background="transparent"
             speed="1" 
-            style={{ width: '13vmin', height: '13vmin'}}
+            style={{ width: '20vmin', height: '20vmin'}}
             loop
             autoplay>
           </lottie-player>

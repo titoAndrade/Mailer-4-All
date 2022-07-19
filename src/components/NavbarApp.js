@@ -25,7 +25,7 @@ function NavbarApp() {
               <div class="col">
                 <NavDropdown title="+" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">about</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">github repository</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">repository</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">ilustrations</NavDropdown.Item>
                   <NavDropdown.Divider style={{ color: '#efefef' }}/>
                   <NavDropdown.Item href="#action/3.4">want to chat?</NavDropdown.Item>

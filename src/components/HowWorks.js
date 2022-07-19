@@ -11,14 +11,14 @@ const HowWorks = () => {
     <div class="container" id="how-works-container">
       
       {/* #1 */}
-      <div class="row justify-content-around" id='section-1' style={{ marginTop: '10vmax' }}>
+      <div class="row justify-content-center" id='section-1' style={{ marginTop: '10vmax' }}>
 
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-10" id='explination-col'>
+        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-10" id='explination-col'>
           <h1>How does it work?</h1>
           <p><b style={{fontFamily: 'fahkwang', fontSize:'2.3vmax', padding: '0.2em', color: '#474747'}}>mailer <b style={{ fontFamily: 'lobster', margin: 0, color: '#686ACF'}}>4</b> all </b>is a web application that allows you to send emails from the web without having to log in or create a user</p>
         </div>
 
-        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10" id='illustration-col'>
+        <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10" id='illustration-col' style={{paddingLeft: '6vmax'}}>
 
           <img src={figure_1} alt="" id='main-character-1'/>
        
@@ -54,7 +54,7 @@ const HowWorks = () => {
         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-10" id='explination-col-2'>
           {/* S T E P - 1 */}
           <div class="row justify-content-center" style={{marginBottom: '2vmax', marginTop: '3vmax'}}>
-            <div class="col-2" style={{ border: 'solid 1px #000'}}>
+            <div class="col-2">
               <lord-icon
                 src="https://cdn.lordicon.com/mtdulhdc.json"
                 trigger="hover"
@@ -62,13 +62,13 @@ const HowWorks = () => {
                 style={{width:'8vmax', height:'8vmax'}}>
               </lord-icon>
             </div>
-            <div class="col-8" style={{ border: 'solid 1px #000', textAlign:'left', paddingTop: '2.5vmax', paddingLeft: '2vmax' }}>
-              <p>busca un dispositivo</p>
+            <div class="col-8" style={{ textAlign:'left', paddingTop: '1vmax', paddingLeft: '2vmax' }}>
+              <p>look for a mobile or desktop device</p>
             </div>
           </div>
           {/* S T E P - 2 */}
           <div class="row justify-content-center">
-            <div class="col-2" style={{ border: 'solid 1px #000'}}>
+            <div class="col-2">
               <lord-icon
                 src="https://cdn.lordicon.com/vcoyflbj.json"
                 trigger="hover"
@@ -76,8 +76,8 @@ const HowWorks = () => {
                 style={{width:'8vmax', height:'8vmax'}}>
               </lord-icon>
             </div>
-            <div class="col-8" style={{ border: 'solid 1px #000', textAlign:'left', paddingTop: '2.5vmax', paddingLeft: '2vmax' }}>
-              <p>ingresa tu nombre y correo</p>
+            <div class="col-8" style={{ textAlign:'left', paddingTop: '2.5vmax', paddingLeft: '2vmax' }}>
+              <p>enter your name and email</p>
             </div>
           </div>
         </div>
@@ -86,12 +86,11 @@ const HowWorks = () => {
 
       {/* #3 */}
       <div class="row justify-content-around" style={{ marginTop: '12vmax' }}>
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-10" id='explination-col-3'>
 
-        {/* S T E P - 3 */}
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-10" id='explination-col-2'>
-            <div class="row justify-content-center" style={{marginBottom: '2vmax', marginTop: '3vmax'}}>
-
-              <div class="col-2" style={{ border: 'solid 1px #000'}}>
+            {/* S T E P - 3 */}
+            <div class="row justify-content-center" style={{ marginTop: '-3vmax' }}>
+              <div class="col-2">
                 <lord-icon
                   src="https://cdn.lordicon.com/igpsgesd.json"
                   trigger="hover"
@@ -99,14 +98,19 @@ const HowWorks = () => {
                   style={{width:'8vmax', height:'8vmax'}}>
                 </lord-icon>
               </div>
-
-              <div class="col-8" style={{ border: 'solid 1px #000', textAlign:'left', paddingTop: '2.5vmax', paddingLeft: '2vmax' }}>
-                <p>redacta tu correo y envia</p>
+              <div class="col-8" style={{ textAlign:'left', paddingTop: '2.5vmax', paddingLeft: '2vmax' }}>
+                <p>write your message <b style={{ fontFamily: 'fahwkang' }}>&</b> send it</p>
               </div>
+            </div>
 
-            </div>    
+            <div class="row justify-content-center" id='andthatsit' style={{ marginTop: '3vmax' }}>
+              <div class="col-9">
+                <h2>And that's it !</h2>
+                <p><b style={{fontFamily: 'fahkwang', fontSize:'2.3vmax', padding: '0.2em', color: '#474747'}}>mailer <b style={{ fontFamily: 'lobster', margin: 0, color: '#686ACF'}}>4</b> all </b> is a web app very easy to use and very useful when sending emails simply and without sign in or login!</p>
+              </div>
+            </div>
+
         </div>
-
 
         <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10" id='illustration-col-3' style={{ marginRight: '-10vmax' }}>
 
