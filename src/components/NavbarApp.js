@@ -24,7 +24,7 @@ function NavbarApp() {
               <div class="col"><Nav.Link href="#allform" id="nav-link"><p>Use web App</p></Nav.Link></div>
               <div class="col">
                 <NavDropdown title="+" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">about</NavDropdown.Item>
+                  {/* <NavDropdown.Item href="#action/3.1">about</NavDropdown.Item> */}
                   <NavDropdown.Item href="https://github.com/titoAndrade/Mailer-4-All" target="_blank" rel="noreferrer">repository</NavDropdown.Item>
                   <NavDropdown.Item href="https://icons8.com/illustrations/author/zD2oqC8lLBBA" target="_blank" rel="noreferrer">ilustrations</NavDropdown.Item>
                   <NavDropdown.Divider style={{ color: '#efefef' }}/>

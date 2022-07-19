@@ -12,6 +12,7 @@ const GoTo = React.lazy(() => import("./components/GoTo"))
 const HowWorks = React.lazy(() => import("./components/HowWorks"))
 const Yeah = React.lazy(() => import("./components/Yeah"))
 const SendForm = React.lazy(() => import("./components/SendForm"))
+const Footer = React.lazy(() => import("./components/Footer"))
 
 const App = () => {
 
@@ -31,12 +32,13 @@ const App = () => {
           <GoTo/>
 
           <HowWorks/>
-          {/* <div>
-            <p>Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
-          </div> */}
 
           <Yeah/>
+
           <SendForm/>
+
+          <Footer/>
+
           {/* C O M P O N E N T S  E N D */}
         
         </div>
